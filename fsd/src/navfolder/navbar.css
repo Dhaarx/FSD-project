@@ -1,0 +1,44 @@
+ul li:not(:first-child){
+    display: inline;
+    margin-left: 3rem;
+    margin-right: 5rem;
+
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 15;
+    position: fixed;
+    top: 0;
+    width:100%;
+    padding: 0rem 1rem;
+
+}
+.logo{
+    display: flex-start;
+    position: absolute;
+    left:2rem;
+    color:yellow;
+    font-size: 240%;
+    font-weight: 700;
+    top:0rem;
+    
+}
+ul li:first-child{
+    display: inline;
+    margin-left: 0rem;
+}
+.nav{
+    background-color: rgb(255, 255, 255);
+}
+ul li a:hover{
+    background-color: aqua;
+    border-radius: 1.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}

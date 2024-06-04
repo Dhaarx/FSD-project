@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+.services {
+    padding: 2.5rem 2;
+    top:2rem;
+  }
+  
+  .services {
+    background: var(--darkGrey);
+    text-align: center;
+  }
+  
+  .services-center {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 50px;
+  }
+  
+  .service span {
+    display: inline-block;
+    color: #af9a7d;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .services h6 {
+    letter-spacing: var(--mainSpacing);
+    text-transform: capitalize;
+  }
+  
+  .services p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .services-center {
+      width: 95vw;
+      max-width: 1170px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .services p {
+      width: 100%;
+    }
+  }
+  h6 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+  }
+
+.ser{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+
+  }
+  
+  

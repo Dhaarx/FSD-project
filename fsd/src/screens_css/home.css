@@ -1,0 +1,23 @@
+/* Ensure the carousel container doesn't overflow the viewport */
+.full-width-carousel {
+    width: 100%;
+    margin: 2rem 0;
+    box-sizing: border-box; 
+    overflow: hidden;/* Ensure padding is included in the width */
+}
+
+/* Ensure slides are responsive */
+.full-width-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; /* Adjust height as needed */
+}
+
+.slide-image {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
